@@ -1,0 +1,436 @@
+local ScreenGui = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ImageButton.Parent = ScreenGui
+ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
+ImageButton.Size = UDim2.new(0, 40, 0, 40)
+ImageButton.Draggable = true
+ImageButton.Image = "http://www.roblox.com/asset/?id=99952217953758"
+
+UICorner.CornerRadius = UDim.new(1, 10) 
+UICorner.Parent = ImageButton
+
+ImageButton.MouseButton1Down:Connect(function()
+    game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
+end)
+
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+repeat wait() until game:IsLoaded()
+local Window = Fluent:CreateWindow({
+    Title = "thịnh Roblox hack ",
+    SubTitle = "By thịnh roblox hack",
+    TabWidth = 157,
+    Size = UDim2.fromOffset(450, 300),
+    Acrylic = true,
+    Theme = "Dark",
+    MinimizeKey = Enum.KeyCode.End
+})
+local Tabs = {
+        Main0=Window:AddTab({ Title="Thông Tin" }),
+        Main1=Window:AddTab({ Title="Script Hot Nhất"}),
+        Main2=Window:AddTab({ Title="Script Kaitun" }),
+       Main3=Window:AddTab({ Title="Script Mua" }),
+       Main4=Window:AddTab({ Title="Linh Tinh"}),
+       Main5=Window:AddTab({ Title="Script Fram chest"}),
+       Main6=Window:AddTab({ Title="Client Roblox" }),
+}
+    Tabs.Main0:AddButton({
+    Title = "Discord",
+    Description = "Trongnguyen",
+    Callback = function()
+        setclipboard("https://discord.gg/BqGs2dXKyJ")
+    end
+})
+
+    Tabs.Main0:AddButton({
+    Title = "Tik Tok",
+    Description = "Trongnguyen",
+    Callback = function()
+        setclipboard("tiktok.com/@trongdepzaihuz.nghesi")
+    end
+})
+
+    Tabs.Main0:AddButton({
+    Title = "Tik Tok",
+    Description = "NaNa Tv",
+    Callback = function()
+        setclipboard("https://www.tiktok.com/@nana.tv.roblox")
+    end
+})
+    
+    Tabs.Main1:AddButton({
+    Title="AnDepZai Hub",
+    Description="",
+    Callback=function()
+    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyen345roblox/TRONGNGUYEN/refs/heads/main/andepzainewupdate.txt"))()
+	  
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="NaNa Tv Hub",
+    Description="",
+    Callback=function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyenhubbloxfruit/NANATVHUB/refs/heads/main/NaNaTvHub.txt"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Xeter Hub",
+    Description="",
+    Callback=function()
+	  getgenv().Version = "V1"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Xeter hub v2",
+    Description="",
+    Callback=function()
+	  getgenv().Version = "V2"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Xeter hub v3",
+    Description="",
+    Callback=function()
+	  getgenv().Version = "V3"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Redz Hub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
+  end
+})
+Tabs.Main1:AddButton({
+    Title="W-azure",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Banana Hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Bana/refs/heads/main/banana%20hub.txt"))()
+  end
+})
+Tabs.Main0:AddButton({
+    Title = "Do Trongnguyen Phát Triển",
+    Description = "Kĩ Năng Không Cần Phải Bàn cải",
+    Callback = function()
+        setclipboard("tiktok.com/@trongdepzaihuz.nghesi")
+    end
+  })
+Tabs.Main2:AddButton({
+    Title="Rise Kaitun",
+    Description="",
+    Callback=function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashLua/BloxFruits/main/KaitunBeta.RiseEvo"))()
+  end
+})
+Tabs.Main3:AddButton({
+    Title="Banana Hub Premium (24h reset key 1 lần)",
+    Description="",
+    Callback=function()
+	  game.Players.LocalPlayer:Kick("Con đỉ mẹ mày tham vừa thôi")
+  end
+})
+Tabs.Main3:AddButton({
+    Title="Banana Hub Premium (24h reset key 1 lần)",
+    Description="",
+    Callback=function()
+	  game.Players.LocalPlayer:Kick("Con đỉ mẹ mày tham vừa thôi")
+  end
+})
+Tabs.Main3:AddButton({
+    Title="Banana Hub Premium (24h reset key 1 lần)",
+    Description="",
+    Callback=function()
+	  game.Players.LocalPlayer:Kick("Con đỉ mẹ mày tham vừa thôi")
+  end
+})
+Tabs.Main3:AddButton({
+    Title="Maru Hub (24h Reset key 1 lần)",
+    Description="",
+    Callback=function()
+	  game.Players.LocalPlayer:Kick("Con đỉ mẹ mày tham vừa thôi")
+  end
+})Tabs.Main3:AddButton({
+    Title="Maru hub(24h reset key 1 lần)",
+    Description="",
+    Callback=function()
+	  game.Players.LocalPlayer:Kick("Con đỉ mẹ mày tham vừa thôi")
+  end
+})
+Tabs.Main3:AddButton({
+    Title="Maru Hub (24h reset key 1 lần)",
+    Description="",
+    Callback=function()
+	  game.Players.LocalPlayer:Kick("Trongbeo: bấm vô làm gì:))")
+  end
+})
+Tabs.Main3:AddButton({
+    Title="Maru Hub(24h reset key 1 lần)",
+    Description="",
+    Callback=function()
+	  game.Players.LocalPlayer:Kick("Con đỉ mẹ mày tham vừa thôi")
+  end
+})
+Tabs.Main3:AddButton({
+    Title="W-azure hub Premium(24h reset key 1 lần)",
+    Description="",
+    Callback=function()
+	  game.Players.LocalPlayer:Kick("Con đỉ mẹ mày tham vừa thôi")
+  end
+})
+Tabs.Main3:AddButton({
+    Title="W-azure Premium (24h reset key 1 lần)",
+    Description="",
+    Callback=function()
+	  game.Players.LocalPlayer:Kick("Con đỉ mẹ mày tham vừa thôi")
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Trongnguyen bay up draco",
+    Description="Dành Cho mấy thg chơi map oby",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyenhubbloxfruit/TrongNguyenFlyGui/refs/heads/main/FlyGuiV3.txt"))()
+  end
+})
+Tabs.Main4:AddButton({
+    Title="Reset Trái + Điểm F(không nên dùng)",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/Kaitun.txt"))()
+  end
+})
+Tabs.Main4:AddButton({
+    Title="Đổi Sever",
+    Description="",
+    Callback=function()
+	  -- Script Server Hop Roblox Blox Fruits
+local HttpService = game:GetService("HttpService")
+local TeleportService = game:GetService("TeleportService")
+local Players = game:GetService("Players")
+
+local PlaceID = game.PlaceId
+local AllIDs = {}
+local found = false
+
+-- Lưu lại server đã vào để không vào lại
+local function SaveID(id)
+    local success, result = pcall(function()
+        writefile("NotSameServers.json", HttpService:JSONEncode(AllIDs))
+    end)
+end
+
+-- Tải danh sách ID đã lưu
+local function LoadIDs()
+    local success, result = pcall(function()
+        local data = readfile("NotSameServers.json")
+        AllIDs = HttpService:JSONDecode(data)
+    end)
+end
+
+local function ServerHop()
+    LoadIDs()
+
+    local cursor = ""
+    local function GetServers()
+        local url = "https://games.roblox.com/v1/games/" .. PlaceID .. "/servers/Public?sortOrder=Asc&limit=100&cursor=" .. cursor
+        local response = HttpService:JSONDecode(game:HttpGet(url))
+        for _, v in pairs(response.data) do
+            if v.playing < v.maxPlayers and v.id ~= game.JobId then
+                local alreadyJoined = false
+                for _, id in pairs(AllIDs) do
+                    if id == v.id then
+                        alreadyJoined = true
+                        break
+                    end
+                end
+                if not alreadyJoined then
+                    table.insert(AllIDs, v.id)
+                    SaveID(v.id)
+                    TeleportService:TeleportToPlaceInstance(PlaceID, v.id, Players.LocalPlayer)
+                    wait(4)
+                end
+            end
+        end
+        if response.nextPageCursor then
+            cursor = response.nextPageCursor
+            GetServers()
+        end
+    end
+
+    GetServers()
+end
+
+-- Chạy script
+ServerHop()
+  end
+})
+Tabs.Main4:AddButton({
+    Title="Ramdom Trái",
+    Description="Cho mấy thg lười",
+    Callback=function()
+	  -- Auto Random Fruit (Blox Fruits)
+-- Bảo đảm bạn đang ở gần NPC Cousin trước khi dùng script
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+
+-- Delay giữa mỗi lần random (để tránh bị lỗi spam)
+local delayTime = 5  -- giây
+
+-- Hàm random fruit
+local function RandomFruit()
+    local args = {
+        [1] = "Cousin",
+        [2] = "Buy"
+    }
+
+    -- Gửi sự kiện đến server để mua trái
+    ReplicatedStorage.Remotes.CommF_:InvokeServer(unpack(args))
+end
+
+-- Lặp vô hạn để auto random (nếu đủ tiền và điều kiện)
+while true do
+    pcall(function()
+        RandomFruit()
+    end)
+    wait(delayTime)
+end
+  end
+})
+Tabs.Main4:AddButton({
+    Title="Vào Lại Sever Cũ",
+    Description="",
+    Callback=function()
+	  --// Script Auto Rejoin Server Cũ (Rejoin Last Server)
+local HttpService = game:GetService("HttpService")
+local TeleportService = game:GetService("TeleportService")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+-- Lưu thông tin server hiện tại
+local JobId = game.JobId
+local PlaceId = game.PlaceId
+
+-- Lưu lại JobId vào file (chỉ dùng được với Executor có hỗ trợ writefile)
+if writefile then
+    writefile("last_server.json", HttpService:JSONEncode({
+        jobId = JobId,
+        placeId = PlaceId
+    }))
+end
+
+-- Hàm để rejoin lại server cũ
+function RejoinLastServer()
+    if isfile and readfile and isfile("last_server.json") then
+        local data = HttpService:JSONDecode(readfile("last_server.json"))
+        TeleportService:TeleportToPlaceInstance(data.placeId, data.jobId, LocalPlayer)
+    else
+        warn("Không thể tìm thấy file dữ liệu server cũ.")
+    end
+end
+
+-- Gọi hàm này để rejoin
+RejoinLastServer()
+  end
+})
+Tabs.Main4:AddButton({
+    Title="Nhặt Fruit",
+    Description="",
+    Callback=function()
+	  -- Auto nhặt trái ác quỷ trong map (không tìm qua server)
+while wait(1) do
+    for i,v in pairs(game.Workspace:GetChildren()) do
+        if v:IsA("Tool") and string.find(string.lower(v.Name), "fruit") then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Handle.CFrame
+            wait(0.5)
+            firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Handle, 0)
+            firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Handle, 1)
+        end
+    end
+end
+  end
+})
+})
+Tabs.Main5:AddButton({
+    Title="TrongNguyen Fram chest",
+    Description="Fram Chest Vip Pro",
+    Callback=function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyenhubbloxfruit/TrongNguyenFramChestFree/refs/heads/main/TrongNguyenHubFramChest.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Zinner Hub",
+    Description="",
+    Callback=function()
+	  getgenv().Team = "Pirates"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HoangNguyenk8/Roblox/refs/heads/main/BF-Main.luau"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Maru Hub",
+    Description="Maru by thịnh roblox hack",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Maru/refs/heads/main/Marufree.lua"))()
+  end
+})
+Tabs.Main6:AddButton({
+    Title = "Delta Vng Ko cài đè",
+    Description = "Nhấn vào để copy rồi vào chrome",
+    Callback = function()
+        setclipboard("https://www.mediafire.com/file/cy7p4kyxsonkj51/Delta_Vng-2.684.688_Up.apk/file")
+    end
+})
+Tabs.Main6:AddButton({
+    Title = "Delta Vng Lite",
+    Description = "Nhấn vào để copy rồi vào chrome",
+    Callback = function()
+       setclipboard("https://www.mediafire.com/file/yji2vlu06hgczuy/Delta_Vng_Lite_V2.684.apk/file")
+    end
+})
+Tabs.Main6:AddButton({
+    Title = "Code X Vng",
+    Description = "Nhấn vào để copy rồi vào chrome",
+    Callback = function()
+       setclipboard("https://www.mediafire.com/file/xmk2zq6iq9pz2bg/Codex_VNG_v2.681.apk/file")
+    end
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
