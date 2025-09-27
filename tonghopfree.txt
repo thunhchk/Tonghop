@@ -30,9 +30,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
+     local Tab0o = MakeTab({Name = "fast"})
      local Tab1o = MakeTab({Name = "Script Farm mới"})
      local Tab2o = MakeTab({Name = "Script fix lag"})
-     
+     local Tab3o = MakeTab({Name = "Script farm rương"})
+     local Tab4o = MakeTab({Name = "Script kaitun"})
+     local Tab5o = MakeTab({Name = "Script afk"})
+     local Tab6o = MakeTab({Name = "Script aimbot"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -41,9 +45,92 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Thinhlime/refs/heads/main/thinhlime.lua"))()
   end
   })
-  AddButton(Tab1o, {
+  AddButton(Tab2o, {
      Name = "fix lag",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Ficlag/refs/heads/main/thinhfixlagv2.txt"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "thịnh chest",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Farmchestv1/refs/heads/main/farmchest.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "maru by thinh",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Thinhv4/refs/heads/main/thinhroblox.txt"))()
+  end
+  })
+  AddButton(Tab4o, {
+     Name = "kaitun thinh",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Kaitunbf/refs/heads/main/thinhkaitunbf.txt"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "banana thinh",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Bananacat/refs/heads/main/testhub.lua"))()
+  end
+  })
+  AddButton(Tab0o, {
+     Name = "fast Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Fasthub/refs/heads/main/fastthinh.txt"))()
+  end
+  })
+  AddButton(Tab5o, {
+     Name = "afk thịnh",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Antiafk/refs/heads/main/thinhafkv1.lua"))()
+  end
+  })
+  AddButton(Tab6o, {
+     Name = "thinh aimbot",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Thinhaimbot/refs/heads/main/thinhaimbot.lua.txt"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "w azure",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "cat egg",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Categg/refs/heads/main/thinhhoangv4ULTIME.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Redz Hub beta",
+    Callback = function()
+	  local Settings = {
+JoinTeam = "Pirates"; -- Pirates/Marines
+Translator = true; -- true/false
+}
+getgenv().BETA_VERSION = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "blue x Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "HNC Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/hnc-roblox/HNCHubOnTop/refs/heads/main/HNC_Roblox.lua"))()
+  end
+  }
+  AddButton(Tab1o, {
+     Name = "quan tum",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
   end
   })
