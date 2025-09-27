@@ -1,0 +1,49 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "thinh Roblox hack",
+         Animation = "tiktok: thinh Roblox hack"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=92722314324124",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script Farm mới"})
+     local Tab2o = MakeTab({Name = "Script fix lag"})
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "thịnh premium",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Thinhlime/refs/heads/main/thinhlime.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "fix lag",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Ficlag/refs/heads/main/thinhfixlagv2.txt"))()
+  end
+  })
