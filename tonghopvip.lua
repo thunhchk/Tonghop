@@ -9,7 +9,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeySystem = true,
         Title = "bản premium nên có key nhé",
         Description = "",
-        KeyLink = "",
+        KeyLink = "ib mình nhé tên nè @nguyenphuocthinh281989",
         Keys = {"thinhyeujack"},
         Notifi = {
         Notifications = true,
@@ -72,5 +72,75 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "ko biết tên",
     Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/NexusScripts212/Roblox/refs/heads/main/Mm2",true))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "farm chest",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Farmchest/refs/heads/main/thinhtp.txt"))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "cat egg đã update",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Categgv6/refs/heads/main/categgv6beta.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "speed hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "hop sever",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Hopsever/refs/heads/main/categghop.txt"))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "banana hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Bananacat/refs/heads/main/testhub.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "foxname- 99 đêm",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "ko tên",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Tigyiscute/tigystealabrainrotscript/refs/heads/main/TigysScript"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "speed hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "fly thịnh",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Flythinh/refs/heads/main/Flythinhv1.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "99 đêm thịnh",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/99nigth/refs/heads/main/99nightthinh.lua"))()
   end
   })
