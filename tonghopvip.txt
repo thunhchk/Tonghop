@@ -31,13 +31,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "thông tin"})
-     local Tab2o = MakeTab({Name = "Script Farm"})
-     local Tab3o = MakeTab({Name = "Script Farm"})
+     local Tab2o = MakeTab({Name = "srcipt linh tinh"})
+     local Tab3o = MakeTab({Name = "blox fruit})
      
 ------- BUTTON
     
     AddButton(Tab2o, {
-     Name = "bất tử",
+     Name = "bất tử 99 đêm",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -45,5 +45,29 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ProBaconHub/DATABASE/refs/heads/main/99%20Nights%20in%20the%20Forest/Infinite%20Health.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "bất tử tất cả game",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/God%20Mode%20Script%20Universal"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "thinh premium",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/thinhlimeted/refs/heads/main/tthinhlimeted.lua"))()
   end
   })
