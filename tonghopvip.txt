@@ -47,7 +47,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ProBaconHub/DATABASE/refs/heads/main/99%20Nights%20in%20the%20Forest/Infinite%20Health.lua"))()
   end
   })
-  
   AddButton(Tab2o, {
      Name = "bất tử tất cả game",
     Callback = function()
@@ -59,7 +58,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ProBaconHub/DATABASE/
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/God%20Mode%20Script%20Universal"))()
   end
   })
-  
   AddButton(Tab3o, {
      Name = "thinh premium",
     Callback = function()
