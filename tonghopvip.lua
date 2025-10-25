@@ -38,6 +38,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab5o = MakeTab({Name = "srcipt linh tinh"})
      local Tab6o = MakeTab({Name = "blox fruit"})
      local Tab7o = MakeTab({Name = "kaitun blox fruit"})
+     local Tab8o = MakeTab({Name = "script tổng hợp"})
+     local Tab9o = MakeTab({Name = "tthe strongest battlegrounds"})
      
 ------- BUTTON
     
@@ -275,7 +277,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "hiru hub",
     Callback = function()
 	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/ExecuteGames/main/QuestGames.lua"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/ExecuteGames/main/QuestGames.lua"))()
   end
   })
   
@@ -305,5 +307,69 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/ExecuteGame
      Name = "đạt thg",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2"))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "HNC HUB",
+    Callback = function()
+	  getgenv().team = "Pirates" --"Marines"
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/hnc-roblox/HNCHubOnTop/refs/heads/main/HNC_Roblox.lua"))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "teddy hub",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+      loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/ea696e8e7439ba51"))()
+
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "hiru hub ui redz",
+    Callback = function()
+	  getgenv().Settings = {
+      JoinTeam = true,
+      Team = "Marines"
+      }
+      getgenv().Version = "V1"-- V1 Ui Fluent or V2 Ui Redz
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/MainVerison.lua"))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "gravity hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab8o, {
+     Name = "tổng hợp tboy roblox",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TBoyRoblox727/TBoyRobloxYTB/refs/heads/main/AllScriptBF.txt"))()
+  end
+  })
+  
+  AddButton(Tab8o, {
+     Name = "tuấn anh ios tổng hợp",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/TuanAnhIOSNew/refs/heads/main/TuanAnhIOS-TongHop.Lua"))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "astra hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+  })
+  
+  AddButton(Tab9o, {
+     Name = "aimlock",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"))()
   end
   })
