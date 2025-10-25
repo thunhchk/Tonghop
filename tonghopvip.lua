@@ -206,7 +206,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "teddy hop sever",
     Callback = function()
 	  repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
   end
   })
   
@@ -235,14 +235,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
      Name = "tboy Roblox",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TBoyRoblox727/TBoyRobloxYTB/refs/heads/main/TBeoMainBF.lua"))()
+  end  
   })
   
   AddButton(Tab6o, {
      Name = "xeter v3",
     Callback = function()
 	  getgenv().Version = "V3"
-getgenv().Team = "Marines"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()
+      getgenv().Team = "Marines"
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()
   end
   })
   
@@ -257,7 +258,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs
      Name = "ngọc bổng",
     Callback = function()
 	  getgenv().Team = "Marines"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ngocbonggaming/script/refs/heads/main/NgocBongVn.lua"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ngocbonggaming/script/refs/heads/main/NgocBongVn.lua"))()
   end
   })
   
@@ -265,8 +266,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ngocbonggaming/script
      Name = "auto kc 99 đêm",
     Callback = function()
 	  getgenv().WebhookURL = ""
-getgenv().AutoFarm = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/Farm%20Diamond%20v2.lua"))()
+      getgenv().AutoFarm = true
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/Farm%20Diamond%20v2.lua"))()
   end
   })
   
@@ -296,11 +297,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/ExecuteGame
      Name = "zis roblox",
     Callback = function()
 	  getgenv().Team = "Marines"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisBVn"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisBVn"))()
   end
   })
   
-  AddButton(Tab5o, {
+  AddButton(Tab6o, {
      Name = "đạt thg",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2"))()
